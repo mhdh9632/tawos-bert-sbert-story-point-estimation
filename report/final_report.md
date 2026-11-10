@@ -1,7 +1,6 @@
 # Combined BERT and SBERT Embeddings for Temporal Story-Point Estimation
 
-**Natural Language Processing Project — Problem Statement 10**  
-**Group members:** `[ADD GROUP MEMBER NAMES AND IDs]`  
+**Natural Language Processing Project — Problem Statement 10**   
 **GitHub repository:** https://github.com/mhdh9632/tawos-bert-sbert-story-point-estimation  
 **Executed Colab:** <https://colab.research.google.com/drive/1IITpLs0qPoyH-MEnmVGMHTFEbK4Cu0yx?usp=sharing>  
 **Date:** 11 November 2026
