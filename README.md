@@ -8,7 +8,6 @@ This project investigates whether combining contextual BERT representations with
 
 **GitHub repository:** [mhdh9632/tawos-bert-sbert-story-point-estimation](https://github.com/mhdh9632/tawos-bert-sbert-story-point-estimation)
 
-**Group members:** `[ADD GROUP MEMBER NAMES AND IDs]`
 
 ## Main finding
 
