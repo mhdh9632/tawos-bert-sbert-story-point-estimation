@@ -1,0 +1,20 @@
+{
+  "problem_statement": 10,
+  "project_key": "DM",
+  "seed": 42,
+  "device": "cuda",
+  "bert_model": "bert-base-uncased",
+  "sbert_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "fusion": "concatenation of 768-dimensional mean-pooled BERT and 384-dimensional SBERT vectors",
+  "max_length": 256,
+  "embedding_batch_size": 16,
+  "training": {
+    "batch_size": 64,
+    "max_epochs": 50,
+    "patience": 7,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "loss": "SmoothL1Loss",
+    "regression_head": "Linear(input,256)-ReLU-Dropout(0.20)-Linear(256,64)-ReLU-Dropout(0.10)-Linear(64,1)"
+  }
+}

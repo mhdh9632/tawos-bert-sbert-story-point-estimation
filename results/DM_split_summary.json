@@ -1,0 +1,91 @@
+{
+  "project_key": "DM",
+  "test_fraction": 0.2,
+  "development_count": 11825,
+  "test_count": 2957,
+  "development_dates": [
+    "2014-03-04 14:51:50",
+    "2019-11-07 22:44:03"
+  ],
+  "test_dates": [
+    "2019-11-07 22:50:12",
+    "2020-10-22 14:51:07"
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "train_start": 0,
+      "train_end": 1952,
+      "validation_start": 1952,
+      "validation_end": 3907,
+      "train_dates": [
+        "2014-03-04 14:51:50",
+        "2016-02-03 12:03:14"
+      ],
+      "validation_dates": [
+        "2016-02-03 12:17:28",
+        "2016-11-30 11:36:52"
+      ]
+    },
+    {
+      "fold": 2,
+      "train_start": 0,
+      "train_end": 3907,
+      "validation_start": 3907,
+      "validation_end": 5869,
+      "train_dates": [
+        "2014-03-04 14:51:50",
+        "2016-11-30 11:36:52"
+      ],
+      "validation_dates": [
+        "2016-11-30 11:42:04",
+        "2017-09-28 13:26:26"
+      ]
+    },
+    {
+      "fold": 3,
+      "train_start": 0,
+      "train_end": 5869,
+      "validation_start": 5869,
+      "validation_end": 7862,
+      "train_dates": [
+        "2014-03-04 14:51:50",
+        "2017-09-28 13:26:26"
+      ],
+      "validation_dates": [
+        "2017-09-28 15:24:23",
+        "2018-08-06 13:33:54"
+      ]
+    },
+    {
+      "fold": 4,
+      "train_start": 0,
+      "train_end": 7862,
+      "validation_start": 7862,
+      "validation_end": 9856,
+      "train_dates": [
+        "2014-03-04 14:51:50",
+        "2018-08-06 13:33:54"
+      ],
+      "validation_dates": [
+        "2018-08-06 15:15:13",
+        "2019-04-08 12:41:58"
+      ]
+    },
+    {
+      "fold": 5,
+      "train_start": 0,
+      "train_end": 9856,
+      "validation_start": 9856,
+      "validation_end": 11825,
+      "train_dates": [
+        "2014-03-04 14:51:50",
+        "2019-04-08 12:41:58"
+      ],
+      "validation_dates": [
+        "2019-04-08 12:42:08",
+        "2019-11-07 22:44:03"
+      ]
+    }
+  ]
+}

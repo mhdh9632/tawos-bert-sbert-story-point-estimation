@@ -1,0 +1,16 @@
+21308124/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/processed/
+artifacts/
+checkpoints/
+# Commit compact experiment tables and plots under results/. Exclude only
+# large generated datasets, embeddings, and model checkpoints above.
+
+# Local submission bundle and instructor-provided/internal planning documents.
+TAWOS_NLP_Problem10_Submission.zip
+Project Guidelines.pdf
+docs/superpowers/
+
